@@ -33,7 +33,7 @@ public class App extends Application {
         Parent root = loader.load();
 
         FirstPageController itemController = loader.getController();
-        itemController.setData("hiii");
+        itemController.setData();
 
         Scene scene=new Scene(root);
 
